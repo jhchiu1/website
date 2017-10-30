@@ -1,0 +1,33 @@
+  #gradient
+        {
+            height: 950px;
+            background: #000000; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(left, #000000, #474747); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, #000000, #474747); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, #000000, #474747); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to right, #000000, #474747); /* Standard syntax (must be last) */
+        }
+
+body {
+background-color: #34373a;
+background-image: url("navibg.png");
+background-repeat: repeat-y;
+background-position: left top;
+}
+
+p {
+font-weight: bold;
+}
+
+h2 {
+color: #00ffcc;
+font-size: 48px;
+text-align: center;
+font-family: Tahoma;
+letter-spacing: 2px;
+font-weight: bold; 
+  background: -webkit-linear-gradient(left, #f006d4, #f4d27a, #19f3f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+margin-bottom: 50px;
+}
