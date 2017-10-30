@@ -8,4 +8,11 @@
             background: linear-gradient(to right, #0000ff, #474747); /* Standard syntax (must be last) */
         }
 
-
+body {
+background-color: #34373a;
+background-image: url("navibg.png");
+background-repeat: repeat-y;
+background-position: left top;
+font-size: 48px;
+font-family: Tahoma;
+}
